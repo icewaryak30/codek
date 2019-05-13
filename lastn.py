@@ -1,4 +1,3 @@
-s=input()
-n=int(input())
-x=len(s)-n
+s,n=map(input().split())
+x=len(s)-int(n)
 print(s[x:])
