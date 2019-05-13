@@ -1,3 +1,4 @@
 #ice
 s=input()
-print(s.title())
+p=s.title()
+print(p)
